@@ -15,9 +15,10 @@ public class IOchallenge {
         int b = scan.nextInt(); 
 		System.out.println("What's your third number?"); 
         int c = scan.nextInt(); 
-        // use the + sign to write separate variables in the same line
+        // use the + sign to write separate variables in the same line is called cancatination
         //putting " " around words makes them strings 
-        System.out.println("Numbers Chosen: " +  a + " " + b + " " + c ); 
-
+        System.out.println("1st Number: " + a); 
+	System.out.println("2nd Number: " + b); 
+        System.out.println("3rd Number: " + c); 
     }
 }
