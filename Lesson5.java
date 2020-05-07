@@ -1,6 +1,6 @@
 import java.util.*; 
 
-public class salesPrediction {
+public class charityPrediction {
 
 	public static void main(String[]args) {
 //every year a company pays %12 of their income to charity
@@ -18,7 +18,9 @@ public class salesPrediction {
 	percentCharity= keyboard.nextDouble(); 
 	
 	double percentage = (percentCharity/100); 
- 
+	//the reason i am using the variable percentage is when multiplying I need to make it into decimal: 10% = .10, 25%=.25, etc.
+	// the equation for this is just dividing it by 100
+		
 	donationTotal = (annualIncome*percentage);
 	System.out.printf("Total donation to Charity: $"+ "%.2f",donationTotal);
 	//use printf if you want to change the way it's displayed. 
